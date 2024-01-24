@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppFS from './AppFS';
+import App from './AppNew';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppFS />
+    <App />
   </React.StrictMode>
 );
